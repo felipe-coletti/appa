@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Metadados-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Topo-->
+    <title>APPA</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/images/favicon.png">
+</head>
+<body oncontextmenu="return false" onselectstart="return false" onmousedown="return false" onkeydown="return false">
+    <header class="flex-container"><!--Menu de acessibilidade-->
+        <ul class="links_access">
+            <li><a href="javascript:void(0);">CONTRASTE</a></li>
+            <li><a href="javascript:void(0);">SEM CONTRASTE</a></li>
+            <li><a href="javascript:void(0);">A+</a></li>
+            <li><a href="javascript:void(0);">A-</a></li>
+            <li><a href="acessibility.html">ACESSIBILIDADE</a></li>
+        </ul>
+    </header>
+    <nav class="flex-container"><!--Menu principal e de navegação-->
+        <ul class="pages">
+            <li><img id="logo" src="../assets/images/logo.png" alt="Logo da ong Appa"></li>
+            <li><a href="../index.html">SOBRE A ONG</a></li>
+            <li><a href="campaigns.html">CAMPANHAS</a></li>
+            <li><a href="join.html">JUNTE-SE A CAUSA</a></li>
+            <li><a href="partners.html">PARCEIROS</a></li>
+            <li><a href="contact.html">CONTATO</a></li>
+        </ul>
+    </nav>
+    <main class="flex-container"><!--Conteúdo da página-->
+        <fieldset id="families-welcomed">
+            <h1>CAMPANHAS</h1>
+            <div class="flex-container" id="campaigns">
+                <fieldset class="flat-container" id="block1">
+                    <img class="image" src="../assets/images/basic-food-parcel.png" alt="Cestas básicas">
+                    <h1>CESTA BÁSICA</h1>
+                    <p>As cestas básicas são a nossa principal campanha e são distribuídas durante todo o ano.</p>
+                    <fieldset class="button-container">
+                        <button type="submit">Inscrever-se</button>
+                    </fieldset>
+                </fieldset>
+                <fieldset class="flat-container" id="block2">
+                    <img class="image" src="../assets/images/christmas-gift.png" alt="Presentes de natal">
+                    <h1>SACOLINHA DE NATAL</h1>
+                    <p>As sacolinhas de natal são a nossa campanha especial para trazer um pouco mais de alegria a quem tanto precisa.</p>
+                    <fieldset class="button-container">
+                        <button type="submit">Inscrever-se</button>
+                    </fieldset>
+                </fieldset>
+            </div>
+        </fieldset>
+        <fieldset id="counter">
+            <img class="distorted-image" src="../assets/images/donation.png" alt="Número de cestas doadas">
+            <label id="text">
+                <h1>0000</h1>
+                <p>CESTAS DOADAS<br>ESTE ANO</p>
+            </label>
+        </fieldset>
+    </main>
+    <footer class="flex-container">
+        <p>Todos os direitos reservados &copy; 2022</p>
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <div class="fab"  ontouchstart="">
+        <button class="main" >
+        </button>
+        <fieldset class="flat-container"></fieldset>
+    </div>
+</body>
+</html>
