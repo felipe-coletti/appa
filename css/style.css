@@ -224,8 +224,8 @@ fieldset, section{
 
 #text {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    bottom: 25%;
+    left: 25%;
     font-weight: bold;
     text-align: center;
     color:#fff;
