@@ -224,17 +224,18 @@ fieldset, section{
 
 #text{
     position: absolute;
-    bottom: 25%;
-    left: 25%;
+    width: 100%;
+    height: 100%;
     font-weight: bold;
     text-align: center;
     color:#fff;
 }
 
 #text h1{
-    font-size: 100px;
+    font-size: 80px;
+    padding-top: 17.5%;
 }
 
 #text p{
-    font-size: 28px;
+    font-size: 22px;
 }
