@@ -6,7 +6,7 @@
 }
 
 body{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* formatos básicos */
@@ -21,7 +21,6 @@ body{
     border-radius: 1em;
     width: 40%;
     height: 325px;
-    font-size: 18px;
     padding: 2.5%;
 }
 
@@ -33,7 +32,6 @@ body{
     text-align: center;
     color: #000;
     margin: 0%;
-    
 }
 
 .image{
@@ -60,7 +58,6 @@ body{
     background-color: #0071b7;
     color: #fff;
     border-radius: 1em;
-    font-size: 18px;
     width: 70%;
     height: auto;
     padding: 2.5%;
@@ -69,7 +66,6 @@ body{
 /* formulários */
 
 form{
-    font-size: 18px;
     width: 100%;
     height: 100%;
     margin: 0%;
@@ -81,7 +77,6 @@ form input{
     border-color: #0071b7;
     background-color: transparent;
     border-radius: 0.5em;
-    font-size: 18px;
     width: 97.5%;
     height: auto;
     padding: 1%;
@@ -92,7 +87,6 @@ form button{
     background-color: #0071b7;
     color: #fff;
     border-radius: 1em;
-    font-size: 18px;
     width: 15%;
     height: auto;
     padding: 1%;
@@ -100,6 +94,10 @@ form button{
 
 form input, form button{
     margin-bottom: 4%;
+}
+
+input, button{
+    font-size: 16px;
 }
 
 /* divisões */
@@ -133,6 +131,10 @@ footer{
     text-align: center;
     height: 5vh;
     background-color: #fff;
+}
+
+header, nav, footer{
+    font-size: 16px;
 }
 
 ul{
@@ -181,16 +183,15 @@ fieldset{
     border: none;
 }
 
-main fieldset{
+fieldset, section{
     margin: 5%;
 }
 
-#families-welcomed #campaigns #block1 h1, #families-welcomed #campaigns #block2 h1{
-    font-size: 18px;
+#block1 p, #block2 p, #block1 a{
+    font-size: 16px;
 }
 
 #block1 a{
-    font-size: 16px;
     color: #000;
     white-space: nowrap;
 }
@@ -198,10 +199,6 @@ main fieldset{
 #families-welcomed, #counter{
     width: 45%;
     height: 40%;
-}
-
-#families-welcomed{
-    font-size: 18px;
 }
 
 #families-welcomed h1{

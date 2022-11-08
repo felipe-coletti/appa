@@ -13,40 +13,41 @@
 <body oncontextmenu="return false" onselectstart="return false">
     <header class="flex-container"><!--Menu de acessibilidade-->
         <ul class="links_access">
-            <li><a href="javascript:void(0);">CONTRASTE</a></li>
-            <li><a href="javascript:void(0);">SEM CONTRASTE</a></li>
+            <li><a href="acessibility.html">Acessibilidade</a></li>
+            <li><a href="javascript:void(0);">Com constrate</a></li>
+            <li><a href="javascript:void(0);">Sem contraste</a></li>
             <li><a href="javascript:void(0);">A+</a></li>
             <li><a href="javascript:void(0);">A-</a></li>
-            <li><a href="acessibility.html">ACESSIBILIDADE</a></li>
         </ul>
     </header>
     <nav class="flex-container"><!--Menu principal e de navegação-->
         <ul class="pages">
-            <li><img id="logo" src="../assets/images/logo.png" alt="Logo da ong Appa"></li>
-            <li><a href="../index.html">SOBRE A ONG</a></li>
-            <li><a href="campaigns.html">CAMPANHAS</a></li>
-            <li><a href="join.html">JUNTE-SE A CAUSA</a></li>
-            <li><a href="partners.html">PARCEIROS</a></li>
-            <li><a href="contact.html">CONTATO</a></li>
+            <li><a href="../index.html"><img id="logo" src="../assets/images/logo.png" alt="Logo da ong Appa"></a></li>
+            <li><a href="../index.html">Sobre a ong</a></li>
+            <li><a href="campaigns.html">Campanhas</a></li>
+            <li><a href="join.html">Junte-se a causa</a></li>
+            <li><a href="partners.html">Parceiros</a></li>
+            <li><a href="contact.html">Contato</a></li>
         </ul>
     </nav>
     <main class="flex-container"><!--Conteúdo da página-->
-        <fieldset id="families-welcomed">
-            <h1>JUNTE-SE A ONG</h1>
+        <section id="families-welcomed">
+            <h1>Junte-se a causa</h1>
             <form action="../php/controller.php" method="post" name="signin">
                 <input type="text" name="name" placeholder="Nome" required><br>
                 <input type="email" name="email"placeholder="E-mail" required><br>
                 <input type="tel" name="telephone" placeholder="Telefone" required><br>
                 <button type="submit">Enviar</button>
             </form>
-        </fieldset>
-        <fieldset id="counter">
+        </section>
+        <section id="counter">
             <img class="distorted-image" src="../assets/images/donation.png" alt="Número de cestas doadas">
             <label id="text">
                 <h1>0000</h1>
-                <p>CESTAS DOADAS<br>ESTE ANO</p>
+                <p>CESTAS DOADAS</p>
+                <p>ESTE ANO</p>
             </label>
-        </fieldset>
+        </section>
     </main>
     <footer class="flex-container">
         <p>Todos os direitos reservados &copy; 2022</p>
