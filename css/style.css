@@ -196,12 +196,12 @@ fieldset, section{
     white-space: nowrap;
 }
 
-#families-welcomed, #counter{
+#text, #counter{
     width: 45%;
     height: 40%;
 }
 
-#families-welcomed h1{
+#text h1{
     font-size: 20px;
     color: #e5487b;
     margin-bottom: 4%;
@@ -214,7 +214,7 @@ fieldset, section{
     height: 20em;
 }
 
-.distorted-image{
+#counter .distorted-image{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -222,7 +222,7 @@ fieldset, section{
     filter: grayscale(100%);
 }
 
-#text{
+#counter #families-welcomed{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -231,11 +231,11 @@ fieldset, section{
     color:#fff;
 }
 
-#text h1{
+#counter #families-welcomed h1{
     font-size: 80px;
     padding-top: 17.5%;
 }
 
-#text p{
+#counter #families-welcomed p{
     font-size: 22px;
 }
