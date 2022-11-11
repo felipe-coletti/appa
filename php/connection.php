@@ -7,10 +7,10 @@
     $conn = mysqli_connect($hostname, $username, $password, $database);
 
     if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
+        die("Erro de conexão: " . mysqli_connect_error());
     }
 
-    echo "Connected successfully.";
+    echo "Conectado com sucesso.";
 
     mysqli_close($conn);
 ?>
