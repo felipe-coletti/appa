@@ -1,8 +1,8 @@
 <?php
-    $hostname = "localhost";
-    $database = "appa_db";
-    $username = "root";
-    $password = "password";
+    $hostname = "";
+    $database = "";
+    $username = "";
+    $password = "";
 
     $conn = mysqli_connect($hostname, $username, $password, $database);
 
