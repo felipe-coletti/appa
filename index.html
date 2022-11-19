@@ -9,15 +9,16 @@
     <title>Sobre nós - APPA</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
 <body oncontextmenu="return false" onselectstart="return false" onmousedown="return false" onkeydown="return false">
     <header class="flex-container"><!--Menu de acessibilidade-->
         <ul class="links_access">
             <li><a href="acessibility.html">Acessibilidade</a></li>
-            <li><a href="javascript:void(0);">Com constrate</a></li>
-            <li><a href="javascript:void(0);">Sem contraste</a></li>
-            <li><a href="javascript:void(0);">A+</a></li>
-            <li><a href="javascript:void(0);">A-</a></li>
+            <li><a href="javascript:void(0);" id="">Com constrate</a></li>
+            <li><a href="javascript:void(0);" id="">Sem contraste</a></li>
+            <li><a href="javascript:void(0);" id="increase">A+</a></li>
+            <li><a href="javascript:void(0);" id="decrease">A-</a></li>
         </ul>
     </header>
     <nav class="flex-container"><!--Menu principal e de navegação-->
@@ -64,4 +65,5 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 </body>
+<script src="js/font.js"></script>
 </html>
