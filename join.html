@@ -9,6 +9,8 @@
     <title>Junte-se a causa - APPA</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body oncontextmenu="return false" onselectstart="return false">
     <header class="flex-container"><!--Menu de acessibilidade-->
@@ -16,8 +18,8 @@
             <li><a href="acessibility.html">Acessibilidade</a></li>
             <li><a href="javascript:void(0);">Com constrate</a></li>
             <li><a href="javascript:void(0);">Sem contraste</a></li>
-            <li><a href="javascript:void(0);">A+</a></li>
-            <li><a href="javascript:void(0);">A-</a></li>
+            <li><a href="javascript:void(0);" id="increase">A+</a></li>
+            <li><a href="javascript:void(0);" id="decrease">A-</a></li>
         </ul>
     </header>
     <nav class="flex-container"><!--Menu principal e de navegação-->
@@ -36,7 +38,7 @@
             <form action="php/controller.php" method="post">
                 <input type="text" placeholder="Nome" required>
                 <input type="email" placeholder="E-mail" required>
-                <input type="tel" placeholder="Telefone" required>
+                <input type="tel" id="telephone" placeholder="Telefone" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
@@ -67,4 +69,6 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 </body>
+<script src="js/font.js"></script>
+<script src="js/mask.js"></script>
 </html>
