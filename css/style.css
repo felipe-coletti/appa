@@ -167,9 +167,13 @@ input{
 /* floating action button */
 
 .fab-container button, .fab-container fieldset{
-    position: absolute;
+    position: fixed;
     bottom: 7vh;
     right: 2vh;
+}
+
+.fab-container fieldset{
+    display: none;
 }
 
 /* vlibras */
