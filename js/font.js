@@ -1,13 +1,24 @@
 $(document).ready(function(){
-    let size = 18
+    let textSize = 16
     $('#increase').click(function(){
-        if(size < 26){
-            $('body').css({'font-size': ++size + 'px'})
+        if(textSize < 24){
+            $('body').css({'font-size': ++textSize + 'px'})
         }
     })
     $('#decrease').click(function(){
-        if(size > 10){
-            $('body').css({'font-size': --size + 'px'})
+        if(textSize > 8){
+            $('body').css({'font-size': --textSize + 'px'})
+        }
+    })
+    let titleSize = 20
+    $('#increase').click(function(){
+        if(titleSize < 28){
+            $('#text h1').css({'font-size': ++titleSize + 'px'})
+        }
+    })
+    $('#decrease').click(function(){
+        if(titleSize > 12){
+            $('#text h1').css({'font-size': --titleSize + 'px'})
         }
     })
 })

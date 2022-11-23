@@ -1,209 +1,61 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
-    text-decoration: none;
 }
 
 body{
-    font-size: 18px;
-}
-
-/* formatos básicos */
-
-.flex-container{
-    display: flex;
-    width: 100%;
-}
-
-.flat-container{
-    background-color: #fff;
-    border-radius: 1em;
-    width: 200px;
-    min-height: 300px;
-    padding: 2.5%;
-}
-
-.invisible-container{
-    width: 25%;
-}
-
-.flat-container, .invisible-container{
-    text-align: center;
-    color: #000;
-    margin: 0%;
-}
-
-.image{
-    width: 70px;
-    height: 70px;
-}
-
-.rounded-image{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-#campaigns .flat-container{
-    margin-right: 5%;
-}
-
-#contact, #partners{
-    justify-content: left;
-}
-
-.flat-container button{
-    background-color: #0071b7;
-    color: #fff;
-    border-radius: 1em;
-    width: 67.5%;
-    height: auto;
-    padding: 2.5%;
-}
-
-.rounded-button{
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-/* formulários */
-
-form{
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    color: #000;
-}
-
-form input{
-    border-style: solid;
-    border-color: #0071b7;
-    background-color: transparent;
-    border-radius: 0.5em;
-    width: 97.5%;
-    height: auto;
-    padding: 1%;
-}
-
-form button{
-    background-color: #0071b7;
-    color: #fff;
-    border-radius: 1em;
-    width: 15%;
-    height: auto;
-    padding: 1%;
-}
-
-#text h1, #text p, form input, form button{
-    margin-bottom: 4%;
-}
-
-button{
-    border: none;
-    cursor: pointer;
-}
-
-input, button{
     font-size: 16px;
 }
 
-/* divisões */
+/* navegation */
 
 header{
+    background-color: #fff;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     height: 5vh;
-    background-color: #fff;
 }
 
 nav{
-    justify-content: left;
-    align-items: center;
-    text-align: center;
-    height: 6vh;
     background-color: #fff;
-}
-
-main{
-    min-height: 84vh;
-    height: auto;
-    background: linear-gradient(180deg, #ffc8dc 10.58%, #d8d1e5 61.96%, #aee1fb 100%);
     display: flex;
-}
-
-footer{
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 5vh;
-    background-color: #fff;
+    height: 6vh;
 }
 
-header, nav, footer{
-    font-size: 16px;
+#logo{
+    width: 75px;
+    padding-left: 32px;
+    padding-right: 16px;
 }
 
 ul{
     list-style: none;
-    display: inline-flex;
+    display: flex;
 }
 
-ul li a{
+li{
+    padding-inline: 16px;
+}
+
+a{
+    text-decoration: none;
     color: #000;
-    white-space: nowrap;
 }
 
-.pages li{
-    padding-left: 10%;
-}
+/* content */
 
-.links_access{
-    padding: 0.375%;
-}
-
-.links_access li{
-    padding-inline: 57.5px;
-}
-
-#logo{
-    width: 60px;
-    height: 20px;
-}
-
-.fab-container button, .fab-container fieldset{
-    position: absolute;
-    bottom: 8vh;
-    right: 2vw;
-}
-
-.enabled{
-    padding-right: 12px;
+main{
+    background: linear-gradient(180deg, #ffc8dc 10.58%, #d8d1e5 61.96%, #aee1fb 100%);
+    display: flex;
+    justify-content: center;
+    min-height: 84vh;
 }
 
 fieldset{
     border: none;
-}
-
-fieldset, section{
-    margin: 5%;
-}
-
-#block1 p, #block2 p, #block1 a{
-    font-size: 16px;
-}
-
-#block1 a{
-    color: #000;
-    white-space: nowrap;
-}
-
-#text, #counter{
-    width: 45%;
-    height: 40%;
 }
 
 #text h1{
@@ -211,35 +63,117 @@ fieldset, section{
     color: #e5487b;
 }
 
-#counter{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    height: 20em;
+#text img{
+    width: 70px;
+    height: 70px;
 }
 
-#counter .distorted-image{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-filter: grayscale(100%);
+#campaigns{
+    display: flex;
+    justify-content: left;
+}
+
+#campaigns .flat-container{
+    margin-right: 32px;
+}
+
+#partners, #contact{
+    text-align: center;
+}
+
+#partners #block1, #contact #block1{
+    width: 100px;
+}
+
+#partners img, #contact img{
+    border-radius: 50%;
+}
+
+#counter{
+    color: #fff;
+}
+
+#counter img{
     filter: grayscale(100%);
 }
 
-#counter #families-welcomed{
-    position: absolute;
+#text, #counter{
     width: 100%;
-    height: 100%;
-    font-weight: bold;
+    margin: 5%;
+}
+
+#families-welcomed{
     text-align: center;
-    color:#fff;
 }
 
-#counter #families-welcomed h1{
-    font-size: 80px;
-    padding-top: 17.5%;
+h1, main p, button{
+    padding-bottom: 3%;
 }
 
-#counter #families-welcomed p{
-    font-size: 22px;
+/* footer */
+
+footer{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+/* components */
+
+.flat-container{
+    background-color: #fff;
+    text-align: center;
+    padding: 2%;
+    border-radius: 0.5em;
+    width: 212px;
+    height: 330px;
+}
+
+.rounded-button{
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* forms */
+
+input{
+    background-color: transparent;
+    border-style: solid;
+    border-color: #0071b7;
+    padding-block: 1%;
+    padding-inline: 2%;
+    margin-bottom: 3.5%;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+#text button{
+    background-color: #0071b7;
+    border: none;
+    padding-block: 1%;
+    padding-inline: 2%;
+    border-radius: 2em;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* floating action button */
+
+.fab-container button, .fab-container fieldset{
+    position: absolute;
+    bottom: 7vh;
+    right: 2vh;
+}
+
+/* vlibras */
+
+.enabled{
+    padding-right: 2vh;
 }
