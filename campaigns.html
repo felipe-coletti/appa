@@ -8,15 +8,19 @@
     <!--Topo-->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <title>Campanhas - APPA</title>
+    <!--Estilos-->
     <link rel="stylesheet" href="css/style.css">
+    <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/contrast.js"></script>
+    <script src="js/font.js"></script>
 </head>
 <body>
     <header class="flex-container"><!--Menu de acessibilidade-->
         <ul class="links_access">
             <li><a href="acessibility.html">Acessibilidade</a></li>
-            <li><a href="javascript:void(0);">Com constrate</a></li>
-            <li><a href="javascript:void(0);">Sem contraste</a></li>
+            <li><a href="javascript:void(0);" id="with-contrast">Com constrate</a></li>
+            <li><a href="javascript:void(0);" id="without-contrast">Sem contraste</a></li>
             <li><a href="javascript:void(0);" id="increase">A+</a></li>
             <li><a href="javascript:void(0);" id="decrease">A-</a></li>
         </ul>
@@ -76,5 +80,4 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 </body>
-<script src="js/font.js"></script>
 </html>

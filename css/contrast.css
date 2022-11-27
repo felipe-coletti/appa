@@ -57,6 +57,14 @@ fieldset{
     border-color: #e5487b;
 }
 
+p{
+    color: #fff;
+}
+
+img{
+    filter: invert();
+}
+
 #text h1{
     font-size: 20px;
     color: #e5487b;
