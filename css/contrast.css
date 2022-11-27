@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+/* navegation */
+
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+nav{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 6vh;
+}
+
+#logo{
+    width: 75px;
+    padding-left: 16px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding-inline: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #ff0;
+}
+
+/* content */
+
+main{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    min-height: 84vh;
+}
+
+fieldset{
+    border-color: #e5487b;
+}
+
+#text h1{
+    font-size: 20px;
+    color: #e5487b;
+}
+
+#text img{
+    width: 70px;
+    height: 70px;
+}
+
+#campaigns{
+    display: flex;
+    justify-content: left;
+}
+
+#campaigns .flat-container{
+    margin-right: 32px;
+}
+
+#partners, #contact{
+    text-align: center;
+}
+
+#partners #block1, #contact #block1{
+    width: 100px;
+}
+
+#partners img, #contact img{
+    border-radius: 50%;
+}
+
+#counter{
+    color: #000;
+}
+
+#counter img{
+    filter: grayscale(100%);
+}
+
+#text, #counter{
+    width: 100%;
+    margin: 5%;
+}
+
+#families-welcomed{
+    text-align: center;
+}
+
+h1, main p, button{
+    padding-bottom: 3%;
+}
+
+/* footer */
+
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+/* components */
+
+.flat-container{
+    background-color: #000;
+    text-align: center;
+    padding: 2%;
+    border-radius: 0.5em;
+    width: 212px;
+    height: 330px;
+}
+
+.rounded-button{
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* forms */
+
+input{
+    background-color: transparent;
+    border-style: solid;
+    border-color: #0071b7;
+    padding-block: 1%;
+    padding-inline: 2%;
+    margin-bottom: 3.5%;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+#text button{
+    background-color: #0071b7;
+    border: none;
+    padding-block: 1%;
+    padding-inline: 2%;
+    border-radius: 2em;
+    width: 100px;
+    height: 35px;
+    color: #000;
+    cursor: pointer;
+}
+
+/* floating action button */
+
+.fab-container button, .fab-container fieldset{
+    position: fixed;
+    bottom: 7vh;
+    right: 2vh;
+}
+
+.fab-container fieldset{
+    display: none;
+}
+
+/* vlibras */
+
+.enabled{
+    padding-right: 2vh;
+}
