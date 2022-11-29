@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
-body{
+body {
     font-size: 16px;
 }
 
 /* navegation */
 
-header{
+header {
     background-color: #000;
     display: flex;
     justify-content: center;
@@ -18,107 +18,108 @@ header{
     height: 5vh;
 }
 
-nav{
+nav {
     background-color: #000;
     display: flex;
     align-items: center;
     height: 6vh;
 }
 
-#logo{
+#logo {
     width: 75px;
     padding-left: 16px;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
 }
 
-li{
+li {
     padding-inline: 16px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #ff0;
 }
 
 /* content */
 
-main{
+main {
     background: #000;
     display: flex;
     justify-content: center;
     min-height: 84vh;
 }
-p{
+
+p {
     color: #fff;
 }
 
-img{
+img {
     filter: invert();
 }
 
-#text h1{
+#text h1 {
     font-size: 20px;
     color: #e5487b;
 }
 
-#text img{
+#text img {
     width: 70px;
     height: 70px;
 }
 
-#campaigns{
+#campaigns {
     display: flex;
     justify-content: left;
 }
 
-#campaigns .flat-container{
+#campaigns .flat-container {
     margin-right: 32px;
 }
 
-fieldset{
+fieldset {
     border: 1px solid #e5487b;
 }
 
-#partners, #contact{
+#partners, #contact {
     text-align: center;
 }
 
-#partners #block1, #contact #block1{
+#partners #block1, #contact #block1 {
     width: 100px;
 }
 
-#partners img, #contact img{
+#partners img, #contact img {
     border-radius: 50%;
 }
 
-#counter{
+#counter {
     color: #000;
 }
 
-#counter img{
+#counter img {
     filter: grayscale(100%);
 }
 
-#text, #counter{
+#text, #counter {
     width: 100%;
     margin: 5%;
 }
 
-#families-welcomed{
+#families-welcomed {
     text-align: center;
 }
 
-h1, main p, button{
+h1, main p, button {
     padding-bottom: 3%;
 }
 
 /* footer */
 
-footer{
+footer {
     background-color: #000;
     display: flex;
     justify-content: center;
@@ -128,7 +129,7 @@ footer{
 
 /* components */
 
-.flat-container{
+.flat-container {
     background-color: #000;
     text-align: center;
     padding: 2%;
@@ -137,7 +138,7 @@ footer{
     height: 330px;
 }
 
-.rounded-button{
+.rounded-button {
     background-color: #000;
     width: 50px;
     height: 50px;
@@ -146,7 +147,7 @@ footer{
 
 /* forms */
 
-input{
+input {
     background-color: transparent;
     border-style: solid;
     border-color: #0071b7;
@@ -157,7 +158,7 @@ input{
     width: 100%;
 }
 
-#text button{
+#text button {
     background-color: #0071b7;
     border: none;
     padding-block: 1%;
@@ -171,18 +172,22 @@ input{
 
 /* floating action button */
 
-.fab-container button, .fab-container fieldset{
+.fab-container button, .fab-container fieldset {
     position: fixed;
     bottom: 7vh;
     right: 2vh;
 }
 
-.fab-container fieldset{
+.fab-container fieldset {
     display: none;
 }
 
 /* vlibras */
 
-.enabled{
+.enabled {
     padding-right: 2vh;
 }
+
+/* responsiveness */
+
+
