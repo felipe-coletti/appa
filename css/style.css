@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
-body{
+body {
     font-size: 16px;
 }
 
 /* navegation */
 
-header{
+header {
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -18,100 +18,100 @@ header{
     height: 5vh;
 }
 
-nav{
+nav {
     background-color: #fff;
     display: flex;
     align-items: center;
     height: 6vh;
 }
 
-#logo{
+#logo {
     width: 75px;
     padding-left: 16px;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
 }
 
-li{
+li {
     padding-inline: 16px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
 
 /* content */
 
-main{
+main {
     background: linear-gradient(180deg, #ffc8dc 10.58%, #d8d1e5 61.96%, #aee1fb 100%);
     display: flex;
     justify-content: center;
     min-height: 84vh;
 }
 
-fieldset{
+fieldset {
     border: none;
 }
 
-#text h1{
+#text h1 {
     font-size: 20px;
     color: #e5487b;
 }
 
-#text img{
+#text img {
     width: 70px;
     height: 70px;
 }
 
-#campaigns{
+#campaigns {
     display: flex;
     justify-content: left;
 }
 
-#campaigns .flat-container{
+#campaigns .flat-container {
     margin-right: 32px;
 }
 
-#partners, #contact{
+#partners, #contact {
     text-align: center;
 }
 
-#partners #block1, #contact #block1{
+#partners #block1, #contact #block1 {
     width: 100px;
 }
 
-#partners img, #contact img{
+#partners img, #contact img {
     border-radius: 50%;
 }
 
-#counter{
+#counter {
     color: #fff;
 }
 
-#counter img{
+#counter img {
     filter: grayscale(100%);
 }
 
-#text, #counter{
+#text, #counter {
     width: 100%;
     margin: 5%;
 }
 
-#families-welcomed{
+#families-welcomed {
     text-align: center;
 }
 
-h1, main p, button{
+h1, main p, button {
     padding-bottom: 3%;
 }
 
 /* footer */
 
-footer{
+footer {
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@ footer{
 
 /* components */
 
-.flat-container{
+.flat-container {
     background-color: #fff;
     text-align: center;
     padding: 2%;
@@ -130,7 +130,7 @@ footer{
     height: 330px;
 }
 
-.rounded-button{
+.rounded-button {
     background-color: #fff;
     border: none;
     width: 50px;
@@ -140,7 +140,7 @@ footer{
 
 /* forms */
 
-input{
+input {
     background-color: transparent;
     border-style: solid;
     border-color: #0071b7;
@@ -151,7 +151,7 @@ input{
     width: 100%;
 }
 
-#text button{
+#text button {
     background-color: #0071b7;
     border: none;
     padding-block: 1%;
@@ -165,19 +165,19 @@ input{
 
 /* floating action button */
 
-.fab-container button, .fab-container fieldset{
+.fab-container button, .fab-container fieldset {
     position: fixed;
     bottom: 7vh;
     right: 2vh;
 }
 
-.fab-container fieldset{
+.fab-container fieldset {
     display: none;
 }
 
 /* vlibras */
 
-.enabled{
+.enabled {
     padding-right: 2vh;
 }
 
