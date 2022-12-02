@@ -218,4 +218,12 @@ input {
     .pages li {
         padding: 16px;
     }
+
+    main {
+        display: block;
+    }
+
+    .distorted-image {
+        display: none;
+    }
 }
