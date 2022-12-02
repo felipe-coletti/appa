@@ -158,6 +158,7 @@ input {
 #text button {
     background-color: #0071b7;
     border: none;
+    font-weight: bold;
     padding-block: 0.75em;
     padding-inline: 2em;
     border-radius: 2em;
