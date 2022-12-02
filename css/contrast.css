@@ -44,6 +44,10 @@ a {
     color: #ff0;
 }
 
+label[for="bt_menu"], #bt_menu {
+    display: none;
+}
+
 /* content */
 
 main {
@@ -161,11 +165,10 @@ input {
 #text button {
     background-color: #0071b7;
     border: none;
-    padding-block: 1%;
-    padding-inline: 2%;
+    font-weight: bold;
+    padding-block: 0.75em;
+    padding-inline: 2em;
     border-radius: 2em;
-    width: 100px;
-    height: 35px;
     color: #000;
     cursor: pointer;
 }
@@ -190,4 +193,29 @@ input {
 
 /* responsiveness */
 
+@media screen and (max-width: 740px) {
+    nav {
+        justify-content: left;
+    }
 
+    .pages {
+        display: none;
+    }
+
+    label[for="bt_menu"] {
+        display: block;
+        margin: 2%;
+    }
+
+    #bt_menu:checked ~ .pages {
+        position: absolute;
+        display: block;
+        background-color: #000;
+        width: 100%;
+        top: 11vh;
+    }
+
+    .pages li {
+        padding: 16px;
+    }
+}
