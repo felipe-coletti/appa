@@ -85,7 +85,7 @@ img {
 }
 
 fieldset {
-    border: 1px solid #e5487b;
+    border: none;
 }
 
 #partners, #contact {
@@ -109,7 +109,7 @@ fieldset {
 }
 
 #text, #counter {
-    width: 100%;
+    width: 90%;
     margin: 5%;
 }
 
@@ -135,6 +135,7 @@ footer {
 
 .flat-container {
     background-color: #000;
+    border: 1px solid #e5487b;
     text-align: center;
     padding: 2%;
     border-radius: 0.5em;
@@ -159,7 +160,7 @@ input {
     padding-inline: 2%;
     margin-bottom: 3.5%;
     border-radius: 0.5em;
-    width: 100%;
+    width: 96%;
 }
 
 #text button {
@@ -220,7 +221,16 @@ input {
     }
 
     main {
-        display: block;
+        flex-direction: column;
+    }
+
+    #campaigns {
+        flex-direction: column;
+    }
+
+    #campaigns .flat-container {
+        margin-bottom: 5%;
+        flex-direction: column;
     }
 
     .distorted-image {
