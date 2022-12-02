@@ -212,8 +212,8 @@ input {
         padding: 16px;
     }
 
-    main {
-        display: block;
+    #campaigns {
+        flex-direction: column;
     }
 
     .distorted-image {
