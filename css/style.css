@@ -212,8 +212,16 @@ input {
         padding: 16px;
     }
 
+    main {
+        flex-direction: column;
+    }
+
     #campaigns {
         flex-direction: column;
+    }
+
+    #campaigns .flat-container {
+        margin-bottom: 5%;flex-direction: column;
     }
 
     .distorted-image {
