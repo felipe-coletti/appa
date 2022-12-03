@@ -3,19 +3,19 @@ $(document).ready(function(){
     let textSize = 16
 
     $("#increase").click(function(){
-        if(titleSize < 28){
+        if(titleSize < 24){
             $("#text h1").css({"font-size": ++titleSize + "px"})
         }
-        if(textSize < 24){
+        if(textSize < 20){
             $("body").css({"font-size": ++textSize + "px"})
         }
     })
     
     $("#decrease").click(function(){
-        if(titleSize > 12){
+        if(titleSize > 16){
             $("#text h1").css({"font-size": --titleSize + "px"})
         }
-        if(textSize > 8){
+        if(textSize > 12){
             $("body").css({"font-size": --textSize + "px"})
         }
     })
