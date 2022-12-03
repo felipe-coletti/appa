@@ -233,6 +233,10 @@ input {
         flex-direction: column;
     }
 
+    form button {
+        width: 101%;
+    }
+
     .distorted-image {
         display: none;
     }
